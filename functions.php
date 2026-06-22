@@ -42,7 +42,6 @@ if ( ! function_exists( 'warsa_styles' ) ) :
 		if ( is_rtl() ) {
 			wp_enqueue_style( 'warsa-rtl-css', get_template_directory_uri() . '/assets/css/rtl.css', 'rtl_css', WARSA_VERSION );
 		}
-		wp_enqueue_script( 'warsa-scripts', get_template_directory_uri() . '/assets/js/warsa-scripts.js', array( 'jquery' ), WARSA_VERSION, true );
 	}
 endif;
 
