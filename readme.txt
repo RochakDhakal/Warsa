@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Warsa is a modern, lightweight WordPress block theme designed for digital agencies seeking full creative control without complexity. With full site editing and an intuitive drag-and-drop builder, you can customize every part of your site—including headers and footers—without coding. Fast, responsive, and performance-optimized, Warsa makes it easy to build sleek, professional websites with complete flexibility. Explore more at https://cozythemes.com/warsa/
+Warsa is a modern, lightweight WordPress block theme designed for creators who want to build content-driven websites with ease. With full site editing and an intuitive drag-and-drop experience, you can customize every part of your site—including headers, footers, and templates—without coding. Fast, responsive, and performance-optimized, Warsa provides the flexibility to create blogs, magazines, portfolios, and professional websites for any niche with complete creative freedom.
 
 == Installation ==
 

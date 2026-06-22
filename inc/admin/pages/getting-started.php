@@ -3,7 +3,7 @@
 		<img src="<?php echo esc_url( WARSA_URL . 'inc/admin/images/getting-started-header.png' ); ?>" />
 	</figure>
 	<h3><?php esc_html_e( 'Welcome to Warsa', 'warsa' ); ?></h3>
-	<p><?php esc_html_e( 'Warsa is a modern, lightweight WordPress block theme designed for digital agencies seeking full creative control without complexity. With full site editing and an intuitive drag-and-drop builder, you can customize every part of your site—including headers and footers—without coding. Fast, responsive, and performance-optimized, Warsa makes it easy to build sleek, professional websites with complete flexibility. With Warsa, you can effortlessly build a stunning website with features such as:', 'warsa' ); ?></p>
+	<p><?php esc_html_e( 'Warsa is a modern, lightweight WordPress block theme designed for creators who want to build content-driven websites with ease. With full site editing and an intuitive drag-and-drop experience, you can customize every part of your site—including headers, footers, and templates—without coding. Fast, responsive, and performance-optimized, Warsa provides the flexibility to create blogs, magazines, portfolios, and professional websites for any niche with complete creative freedom.', 'warsa' ); ?></p>
 	<ul class="feature-holder">
 		<li><?php esc_html_e( 'Pre-built starter homepage template', 'warsa' ); ?></li>
 		<li><?php esc_html_e( 'Pre-built customizable sections', 'warsa' ); ?></li>
@@ -14,7 +14,7 @@
 	</ul>
 	<p>
 		<?php
-		esc_html_e( "Whether you're building a service showcase agency site or services booking website, Warsa is the ideal theme—modern, flexible, and designed to suit both needs perfectly.", 'warsa' )
+		esc_html_e( "Whether you're building a personal blog, online magazine, or content-rich website, Warsa is the ideal theme—modern, flexible, and designed to showcase your stories beautifully.", 'warsa' )
 		?>
 	</p>
 	<p><?php esc_html_e( 'Explore Warsa and start building your next stunning website today!', 'warsa' ); ?> <a href="<?php echo esc_url( 'https://cozythemes.com/Warsa/' ); ?>" target="_blank"><?php esc_html_e( 'Learn more', 'warsa' ); ?></a></p>
