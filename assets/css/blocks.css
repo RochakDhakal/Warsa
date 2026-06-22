@@ -1,0 +1,87 @@
+a,
+button,
+img,
+.wp-block-group,
+.wp-block-columns,
+.wp-block-column {
+  transition: all ease 0.23s;
+}
+/* Navigation */
+.is-style-warsa-navigation-primary-hover
+  a.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
+.is-style-warsa-navigation-secondary-hover
+  a.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--secondary) !important;
+}
+/* Social Buttons */
+.is-style-warsa-social-icons-border {
+  & li {
+    padding: 8px;
+    border: 1px solid var(--wp--preset--color--border-color);
+  }
+}
+/* Categories */
+.is-style-warsa-categories-primary {
+  & a {
+    padding: 4px 8px;
+    background-color: var(--wp--preset--color--primary);
+  }
+}
+.is-style-warsa-categories-primary {
+  & a:hover {
+    background-color: var(--wp--preset--color--secondary);
+  }
+}
+.is-style-warsa-categories-secondary {
+  & a {
+    padding: 4px 8px;
+    background-color: var(--wp--preset--color--secondary);
+  }
+}
+.is-style-warsa-categories-secondary {
+  & a:hover {
+    background-color: var(--wp--preset--color--primary);
+  }
+}
+
+/* Cover */
+.is-style-warsa-cover-zoom-in:hover,
+.is-style-warsa-image-zoom-in,
+.is-style-warsa-image-zoom-out {
+  overflow: hidden;
+  & img.wp-block-cover__image-background,
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+.is-style-warsa-cover-zoom-out,
+.is-style-warsa-image-zoom-out {
+  & img.wp-block-cover__image-background,
+  img {
+    overflow: hidden;
+    transform: scale(1.1);
+  }
+}
+.is-style-warsa-image-zoom-out,
+.is-style-warsa-cover-zoom-out:hover {
+  & img.wp-block-cover__image-background,
+  img:hover {
+    transform: scale(1);
+  }
+}
+/* Group, Columns and Column */
+.is-style-warsa-boxshadow,
+.is-style-warsa-boxshadow-hover:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
+}
+.is-style-warsa-boxshadow-md {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.is-style-warsa-boxshadow-lg {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+.is-style-warsa-boxshadow-overflow-hidden {
+  overflow: hidden;
+}
