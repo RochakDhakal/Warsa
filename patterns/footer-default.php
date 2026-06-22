@@ -2,7 +2,7 @@
 /**
  * Title: Footer Default
  * Slug: warsa/footer-default
- * Description: Default footer layout for the strativo
+ * Description: Default footer layout for the warsa
  * Categories: warsa-footer
  * Keywords: footer, nav, links, button
  * Block Types: core/template-part/footer
@@ -11,7 +11,7 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"patternName":"warsa/footer-default","name":"Footer Default","description":"Default footer layout for the strativo","categories":["warsa-footer"]},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"heading-color","layout":{"type":"constrained","contentSize":"1260px"}} -->
+<!-- wp:group {"metadata":{"patternName":"warsa/footer-default","name":"Footer Default","description":"Default footer layout for the warsa","categories":["warsa-footer"]},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"heading-color","layout":{"type":"constrained","contentSize":"1260px"}} -->
 <div class="wp-block-group has-heading-color-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":{"top":"26px","left":"26px"},"padding":{"top":"80px","bottom":"120px","left":"26px","right":"26px"}}}} -->
 <div class="wp-block-columns" style="margin-top:0;margin-bottom:0;padding-top:80px;padding-right:26px;padding-bottom:120px;padding-left:26px"><!-- wp:column {"width":"40%","layout":{"type":"constrained","contentSize":"360px","justifyContent":"left"}} -->
 <div class="wp-block-column" style="flex-basis:40%"><!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","layout":{"type":"flex","flexWrap":"nowrap"}} -->

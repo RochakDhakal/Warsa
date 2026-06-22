@@ -55,14 +55,19 @@
           "name": "Meta Color"
         },
         {
-          "slug": "star-color",
-          "color": "#0F0105",
-          "name": "Star Color"
+          "slug": "overlay",
+          "color": "#0e0d0e4d",
+          "name": "Overlay"
         },
         {
           "slug": "border-color",
           "color": "#FFFFFF33",
           "name": "Border Color"
+        },
+        {
+          "slug": "border-alt",
+          "color": "#0F01051A",
+          "name": "Border Alternate"
         },
         {
           "color": "#ffffff00",

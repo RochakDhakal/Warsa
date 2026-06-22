@@ -1,6 +1,6 @@
 <div class="warsa-page__getting-started">
 	<figure id="banner-image">
-		<img src="<?php echo esc_url( STRATIVO_URL . 'inc/admin/images/getting-started-header.png' ); ?>" />
+		<img src="<?php echo esc_url( WARSA_URL . 'inc/admin/images/getting-started-header.png' ); ?>" />
 	</figure>
 	<h3><?php esc_html_e( 'Welcome to Warsa', 'warsa' ); ?></h3>
 	<p><?php esc_html_e( 'Warsa is a modern, lightweight WordPress block theme designed for digital agencies seeking full creative control without complexity. With full site editing and an intuitive drag-and-drop builder, you can customize every part of your site—including headers and footers—without coding. Fast, responsive, and performance-optimized, Warsa makes it easy to build sleek, professional websites with complete flexibility. With Warsa, you can effortlessly build a stunning website with features such as:', 'warsa' ); ?></p>

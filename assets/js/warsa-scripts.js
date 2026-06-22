@@ -2,13 +2,13 @@
   "use strict";
   $(window).scroll(function () {
     var scrollTop = $(this).scrollTop();
-    var strativoStickyMenu = $(".warsa-sticky-menu");
-    var strativoStickyNavigation = $(".warsa-sticky-navigation");
+    var warsaStickyMenu = $(".warsa-sticky-menu");
+    var warsaStickyNavigation = $(".warsa-sticky-navigation");
 
-    if (strativoStickyMenu.length && scrollTop > 0) {
-      strativoStickyMenu.addClass("sticky-menu-enabled warsa-zoom-in-up");
+    if (warsaStickyMenu.length && scrollTop > 0) {
+      warsaStickyMenu.addClass("sticky-menu-enabled warsa-zoom-in-up");
     } else {
-      strativoStickyMenu.removeClass("sticky-menu-enabled");
+      warsaStickyMenu.removeClass("sticky-menu-enabled");
     }
   });
 

@@ -29,7 +29,7 @@
 		$icon_url = isset($recommended_plugin['icon_url']) ? esc_url($recommended_plugin['icon_url']) : '';
 
 		$classes = array('recommended-plugins');
-		if (strativo_is_plugin_activated($filename)) {
+		if (warsa_is_plugin_activated($filename)) {
 			$classes[] = 'active';
 		}
 	?>
@@ -65,11 +65,11 @@
 					?>
 				</p>
 				<?php
-				if (strativo_is_plugin_activated($filename)) {
+				if (warsa_is_plugin_activated($filename)) {
 				?>
 					<a class="plugin-button plugin-activated"><?php esc_html_e('Activated', 'warsa'); ?></a>
 				<?php
-				} elseif (strativo_is_plugin_installed($filename)) {
+				} elseif (warsa_is_plugin_installed($filename)) {
 				?>
 					<a href="<?php echo esc_url(get_admin_url() . 'plugins.php?action=activate&plugin=' . rawurlencode($slug)); ?>" class="plugin-button plugin-activate" data-name="<?php echo esc_html($name); ?>" data-slug="<?php echo esc_html($slug); ?>" data-filename="<?php echo esc_html($filename); ?>"><?php esc_html_e('Activate', 'warsa'); ?></a>
 				<?php

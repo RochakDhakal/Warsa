@@ -49,7 +49,7 @@ if ( function_exists( 'register_block_style' ) ) {
 		register_block_style(
 			'core/group',
 			array(
-				'name'  => 'warsa-boxshadow-overflow-hidden',
+				'name'  => 'warsa-overflow-hidden',
 				'label' => __( 'Overflow : Hidden', 'warsa' ),
 			)
 		);
@@ -184,6 +184,20 @@ if ( function_exists( 'register_block_style' ) ) {
 			array(
 				'name'  => 'warsa-navigation-secondary-hover',
 				'label' => __( 'Hover : Secondary', 'warsa' ),
+			)
+		);
+		register_block_style(
+			'core/query-pagination',
+			array(
+				'name'  => 'warsa-pagination-primary',
+				'label' => __( 'Primary', 'warsa' ),
+			)
+		);
+		register_block_style(
+			'core/query-pagination',
+			array(
+				'name'  => 'warsa-pagination-secondary',
+				'label' => __( 'Secondary', 'warsa' ),
 			)
 		);
 	}

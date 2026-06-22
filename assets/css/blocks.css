@@ -82,6 +82,65 @@ img,
 .is-style-warsa-boxshadow-lg {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
-.is-style-warsa-boxshadow-overflow-hidden {
+.is-style-warsa-overflow-hidden {
   overflow: hidden;
+}
+/* ********** Pagination ********** */
+/* Primary */
+nav.is-style-warsa-pagination-primary {
+  gap: 1em;
+}
+nav.is-style-warsa-pagination-primary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-alt);
+  background-color: var(--wp--preset--color--primary);
+}
+nav.is-style-warsa-pagination-primary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-warsa-pagination-primary .wp-block-query-pagination-next,
+nav.is-style-warsa-pagination-primary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-alt);
+}
+nav.is-style-warsa-pagination-primary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-warsa-pagination-primary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-warsa-pagination-primary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--primary);
+}
+/* Secondary */
+nav.is-style-warsa-pagination-secondary {
+  gap: 1em;
+}
+nav.is-style-warsa-pagination-secondary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+  background-color: var(--wp--preset--color--secondary);
+}
+nav.is-style-warsa-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-warsa-pagination-secondary .wp-block-query-pagination-next,
+nav.is-style-warsa-pagination-secondary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+nav.is-style-warsa-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-warsa-pagination-secondary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-warsa-pagination-secondary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--secondary);
 }

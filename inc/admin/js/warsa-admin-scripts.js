@@ -2,11 +2,11 @@
   "use strict";
   $("#warsa-dismiss-notice").on("click", ".notice-dismiss", function () {
     $.ajax({
-      url: strativo_admin_localize.ajax_url,
+      url: warsa_admin_localize.ajax_url,
       method: "POST",
       data: {
-        action: "strativo_dismissble_notice",
-        nonce: strativo_admin_localize.nonce,
+        action: "warsa_dismissble_notice",
+        nonce: warsa_admin_localize.nonce,
       },
       success: function (response) {
         if (response.success) {
@@ -22,63 +22,63 @@
   });
 
   // Dashboard
-  const $strativoDashboard = $(".dashboard-about-warsa");
-  const $strativoTabs = $strativoDashboard.find(".warsa-tabs-item");
-  const $strativoContents = $strativoDashboard.find(".warsa-content-item");
+  const $warsaDashboard = $(".dashboard-about-warsa");
+  const $warsaTabs = $warsaDashboard.find(".warsa-tabs-item");
+  const $warsaContents = $warsaDashboard.find(".warsa-content-item");
 
-  function strativoChangeTab(index) {
-    $strativoTabs.removeClass("active");
-    $strativoContents.removeClass("active");
+  function warsaChangeTab(index) {
+    $warsaTabs.removeClass("active");
+    $warsaContents.removeClass("active");
 
     // Add active class to the selected tab and content
-    $strativoTabs.eq(index).addClass("active");
-    $strativoContents.eq(index).addClass("active");
+    $warsaTabs.eq(index).addClass("active");
+    $warsaContents.eq(index).addClass("active");
   }
 
-  const strativoGetSessionTab = sessionStorage.getItem("strativoActivePage");
-  if (parseInt(strativoGetSessionTab)) {
-    strativoChangeTab(strativoGetSessionTab);
+  const warsaGetSessionTab = sessionStorage.getItem("warsaActivePage");
+  if (parseInt(warsaGetSessionTab)) {
+    warsaChangeTab(warsaGetSessionTab);
   } else {
-    strativoChangeTab(0);
+    warsaChangeTab(0);
   }
 
-  $strativoTabs.click(function () {
-    const strativoIndex = $(this).data("index");
-    sessionStorage.setItem("strativoActivePage", strativoIndex);
-    strativoChangeTab(strativoIndex);
+  $warsaTabs.click(function () {
+    const warsaIndex = $(this).data("index");
+    sessionStorage.setItem("warsaActivePage", warsaIndex);
+    warsaChangeTab(warsaIndex);
   });
 
   // Recommended Plugins Page
   // Activate plugin
-  $strativoDashboard.find(".plugin-button.plugin-activate").click(function (e) {
+  $warsaDashboard.find(".plugin-button.plugin-activate").click(function (e) {
     e.preventDefault();
 
-    const strativoPluginSlug = $(this).data("slug");
-    const strativoPluginFilename = $(this).data("filename");
-    const strativoPluginName = $(this).data("name");
+    const warsaPluginSlug = $(this).data("slug");
+    const warsaPluginFilename = $(this).data("filename");
+    const warsaPluginName = $(this).data("name");
 
     $(this).addClass("processing-spinner");
 
     $.ajax({
-      url: strativo_admin_localize.ajax_url,
+      url: warsa_admin_localize.ajax_url,
       type: "POST",
       data: {
-        action: "strativo_rplugin_activation",
-        nonce: strativo_admin_localize.nonce,
-        pluginSlug: strativoPluginSlug,
-        pluginFilename: strativoPluginFilename,
-        pluginName: strativoPluginName,
+        action: "warsa_rplugin_activation",
+        nonce: warsa_admin_localize.nonce,
+        pluginSlug: warsaPluginSlug,
+        pluginFilename: warsaPluginFilename,
+        pluginName: warsaPluginName,
       },
       success: function (response) {
-        var strativoCheckJSON = /{.*}/;
-        var strativoMatch = strativoCheckJSON.exec(response);
+        var warsaCheckJSON = /{.*}/;
+        var warsaMatch = warsaCheckJSON.exec(response);
 
-        if (strativoMatch) {
-          var strativoJsonResponse = strativoMatch[0];
+        if (warsaMatch) {
+          var warsaJsonResponse = warsaMatch[0];
           try {
-            var strativoResponseObj = JSON.parse(strativoJsonResponse);
+            var warsaResponseObj = JSON.parse(warsaJsonResponse);
 
-            if (strativoResponseObj.success) {
+            if (warsaResponseObj.success) {
               window.location.href = window.location.href;
             } else {
               console.log("Error!");
@@ -107,31 +107,31 @@
   $("#warsa-recommend-plugins__installer, #install-activate-button").click(
     function (e) {
       e.preventDefault();
-      const strativoButton = $(this);
-      strativoButton.attr("disabled", "disabled");
-      strativoButton
+      const warsaButton = $(this);
+      warsaButton.attr("disabled", "disabled");
+      warsaButton
         .text("Installing & Activating required plugins")
         .addClass("processing-spinner");
 
-      var strativoActivationData = {
-        action: "strativo_install_and_activate_plugins",
-        nonce: strativo_admin_localize.welcomeNonce,
+      var warsaActivationData = {
+        action: "warsa_install_and_activate_plugins",
+        nonce: warsa_admin_localize.welcomeNonce,
       };
 
       $.post(
-        strativo_admin_localize.ajax_url,
-        strativoActivationData,
+        warsa_admin_localize.ajax_url,
+        warsaActivationData,
         function (response) {
-          var strativoCheckJSON = /{.*}/;
-          var strativoMatch = strativoCheckJSON.exec(response);
+          var warsaCheckJSON = /{.*}/;
+          var warsaMatch = warsaCheckJSON.exec(response);
 
-          if (strativoMatch) {
-            var strativoJsonResponse = strativoMatch[0];
+          if (warsaMatch) {
+            var warsaJsonResponse = warsaMatch[0];
             try {
-              var strativoResponseObj = JSON.parse(strativoJsonResponse);
+              var warsaResponseObj = JSON.parse(warsaJsonResponse);
 
-              if (strativoResponseObj.success === true) {
-                window.location.href = strativo_admin_localize.redirect_url;
+              if (warsaResponseObj.success === true) {
+                window.location.href = warsa_admin_localize.redirect_url;
               } else {
                 console.log("Error!");
               }
@@ -140,9 +140,9 @@
             }
           } else {
             if (response.success === true) {
-              window.location.href = strativo_admin_localize.redirect_url;
+              window.location.href = warsa_admin_localize.redirect_url;
             } else {
-              strativoButton.text(response.data.message);
+              warsaButton.text(response.data.message);
             }
           }
         },
@@ -150,47 +150,47 @@
     },
   );
 
-  $strativoDashboard
+  $warsaDashboard
     .find(".licence-activator.account-unavailable")
     .click(function (e) {
       e.preventDefault();
 
-      window.location.href = strativo_admin_localize.scrollURL;
+      window.location.href = warsa_admin_localize.scrollURL;
     });
 
   // Demos Page
-  const strativoDemoRedirection = $strativoDashboard.find(
+  const warsaDemoRedirection = $warsaDashboard.find(
     ".demo-importer__redirection",
   );
 
-  strativoDemoRedirection.click(function (e) {
+  warsaDemoRedirection.click(function (e) {
     e.preventDefault();
 
     if ($(this).hasClass("plugins-unavailable")) {
-      strativoDemoRedirection.attr("disabled", "disabled");
-      strativoDemoRedirection
+      warsaDemoRedirection.attr("disabled", "disabled");
+      warsaDemoRedirection
         .text("Installing & Activating required plugins")
         .addClass("processing-spinner");
 
-      var strativoActivationData = {
-        action: "strativo_install_and_activate_plugins",
-        nonce: strativo_admin_localize.welcomeNonce,
+      var warsaActivationData = {
+        action: "warsa_install_and_activate_plugins",
+        nonce: warsa_admin_localize.welcomeNonce,
       };
 
       $.post(
-        strativo_admin_localize.ajax_url,
-        strativoActivationData,
+        warsa_admin_localize.ajax_url,
+        warsaActivationData,
         function (response) {
-          var strativoCheckJSON = /{.*}/;
-          var strativoMatch = strativoCheckJSON.exec(response);
+          var warsaCheckJSON = /{.*}/;
+          var warsaMatch = warsaCheckJSON.exec(response);
 
-          if (strativoMatch) {
-            var strativoJsonResponse = strativoMatch[0];
+          if (warsaMatch) {
+            var warsaJsonResponse = warsaMatch[0];
             try {
-              var strativoResponseObj = JSON.parse(strativoJsonResponse);
+              var warsaResponseObj = JSON.parse(warsaJsonResponse);
 
-              if (strativoResponseObj.success === true) {
-                window.location.href = strativo_admin_localize.demoURL;
+              if (warsaResponseObj.success === true) {
+                window.location.href = warsa_admin_localize.demoURL;
               } else {
                 console.log("Error!");
               }
@@ -199,22 +199,22 @@
             }
           } else {
             if (response.success === true) {
-              window.location.href = strativo_admin_localize.demoURL;
+              window.location.href = warsa_admin_localize.demoURL;
             } else {
-              strativoDemoRedirection.text(response.data.message);
+              warsaDemoRedirection.text(response.data.message);
             }
           }
         },
       );
     } else {
-      window.location.href = strativo_admin_localize.demoURL;
+      window.location.href = warsa_admin_localize.demoURL;
     }
   });
 
   $(document).ready(function () {
-    var strativoUrlParams = new URLSearchParams(window.location.search);
+    var warsaUrlParams = new URLSearchParams(window.location.search);
 
-    if (strativoUrlParams.get("cozy-addons-scroll") === "true") {
+    if (warsaUrlParams.get("cozy-addons-scroll") === "true") {
       $("html, body").animate(
         {
           scrollTop:
