@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,7 +27,10 @@ Warsa is a modern, lightweight WordPress block theme designed for creators who w
 
 == Changelog ==
 
-= 1.0.0 - JUN 23, 2026 =
+= 1.0.1 - JUN 23, 2026 =
+* Update: Image and Font License
+
+= 1.0.0 - JUN 22, 2026 =
 * Initial release
 
 
@@ -65,7 +68,7 @@ Source: https://pxhere.com/en/photo/
 Image 5 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/
+Source: https://pxhere.com/en/photo/1648090
 
 Image 6 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
