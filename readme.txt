@@ -42,52 +42,42 @@ Warsa is a modern, lightweight WordPress block theme designed for creators who w
 Theme logo, Icons of service section, dummy logo for showcase are created by our own.
 License: GPL v2 or later
 
-Image 1 for Hero Pattern, https://pxhere.com/
+Image 1 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/1707594
 
-Image 1 for About Pattern, https://pxhere.com/
+Image 2 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1706078
+Source: https://pxhere.com/en/photo/
 
-Image 2 for About Pattern, Image 1 for Testimonial section, Face icon 1, Image 1 for Portfolio pattern  https://pxhere.com/
+Image 3 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1707608
+Source: https://pxhere.com/en/photo/
 
-Image 3 for About Pattern, Face icon 4, Image 2 for Testimonial section, Image 2 for Portfolio pattern  https://pxhere.com/
+Image 4 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1707418
+Source: https://pxhere.com/en/photo/
 
-Image 4 for About Pattern,  https://pxhere.com/
+Image 5 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1708244
+Source: https://pxhere.com/en/photo/
 
-Image 2 for face icon,  https://pxhere.com/
+Image 6 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1707420
+Source: https://pxhere.com/en/photo/1692278
 
-Image 3 for face icon,  https://pxhere.com/
+Image 7 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1707618
+Source: https://pxhere.com/en/photo/
 
-Image 1 for Testimonial,  https://pxhere.com/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/865531
-
-Image 2 for Testimonial,  https://pxhere.com/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/451655
-
-Image 3 for Testimonial,  https://pxhere.com/
+Image for Sidebar,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/604504
@@ -99,7 +89,7 @@ Copyright 2020 The Inter Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/rsms/inter
 
-Font: Miranda Sans,
-Copyright 2025 The Miranda Sans Project Authors
+Font: Instrument Serif,
+Copyright 2022 The Instrument Serif Project Authors
 License: http://scripts.sil.org/OFL
-Source: https://github.com/maxthunberg/miranda-sans/
+Source: https://github.com/Instrument/instrument-serif
