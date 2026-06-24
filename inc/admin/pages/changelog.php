@@ -7,5 +7,12 @@
 			<li><?php esc_html_e('Initial Release', 'warsa'); ?></li>
 		</ul>
 	</div>
+	<div class="version">
+		<h3><?php esc_html_e('Version 1.0.1', 'warsa'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: June 24, 2026', 'warsa'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('* Update: Image and Font License.', 'warsa'); ?></li>
+		</ul>
+	</div>
 
 </div>

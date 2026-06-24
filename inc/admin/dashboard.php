@@ -38,7 +38,7 @@ function warsa_get_dashboard_pages_order(): array
 	$custom_order = array(
 		'getting-started.php',
 		'recommended-plugins.php',
-		'setup-instructions.php',
+		'setup-instruction.php',
 		'free-vs-pro.php',
 		'support.php',
 		'activate-licence.php',
