@@ -5,13 +5,13 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Warsa is a modern, lightweight WordPress block theme designed for creators who want to build content-driven websites with ease. With full site editing and an intuitive drag-and-drop experience, you can customize every part of your site—including headers, footers, and templates—without coding. Fast, responsive, and performance-optimized, Warsa provides the flexibility to create blogs, magazines, portfolios, and professional websites for any niche with complete creative freedom.
+Warsa is a powerful WordPress block theme designed for blogs, news websites, and online magazines. With Full Site Editing support, customizable templates, and a seamless drag-and-drop experience, Warsa makes it easy to publish, organize, and showcase content professionally. Its clean design, lightning-fast performance, and mobile-friendly layout help publishers create engaging reading experiences while maintaining complete creative control.
 
 == Installation ==
 
@@ -27,8 +27,8 @@ Warsa is a modern, lightweight WordPress block theme designed for creators who w
 
 == Changelog ==
 
-= 1.0.1 - JUN 23, 2026 =
-* Update: Image and Font License
+= 1.0.0 - JUN 24, 2026 =
+* Initial release
 
 = 1.0.0 - JUN 22, 2026 =
 * Initial release
@@ -48,22 +48,22 @@ License: GPL v2 or later
 Image 1 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1707594
+Source: https://pxhere.com/en/photo/1714324
 
 Image 2 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/
+Source: https://pxhere.com/fr/photo/1714326
 
 Image 3 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/
+Source: https://pxhere.com/en/photo/1710418
 
 Image 4 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/
+Source: https://pxhere.com/fr/photo/1649285
 
 Image 5 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
@@ -78,7 +78,7 @@ Source: https://pxhere.com/en/photo/1692278
 Image 7 for Screenshot, https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/
+Source: https://pxhere.com/en/photo/1691592
 
 Image for Sidebar,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)

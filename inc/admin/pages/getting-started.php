@@ -3,7 +3,7 @@
 		<img src="<?php echo esc_url( WARSA_URL . 'inc/admin/images/getting-started-header.png' ); ?>" />
 	</figure>
 	<h3><?php esc_html_e( 'Welcome to Warsa', 'warsa' ); ?></h3>
-	<p><?php esc_html_e( 'Warsa is a modern, lightweight WordPress block theme designed for creators who want to build content-driven websites with ease. With full site editing and an intuitive drag-and-drop experience, you can customize every part of your site—including headers, footers, and templates—without coding. Fast, responsive, and performance-optimized, Warsa provides the flexibility to create blogs, magazines, portfolios, and professional websites for any niche with complete creative freedom.', 'warsa' ); ?></p>
+	<p><?php esc_html_e( 'Warsa is a powerful WordPress block theme designed for blogs, news websites, and online magazines. With Full Site Editing support, customizable templates, and a seamless drag-and-drop experience, Warsa makes it easy to publish, organize, and showcase content professionally. Its clean design, lightning-fast performance, and mobile-friendly layout help publishers create engaging reading experiences while maintaining complete creative control.', 'warsa' ); ?></p>
 	<ul class="feature-holder">
 		<li><?php esc_html_e( 'Pre-built starter homepage template', 'warsa' ); ?></li>
 		<li><?php esc_html_e( 'Pre-built customizable sections', 'warsa' ); ?></li>
